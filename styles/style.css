@@ -68,7 +68,7 @@
 }
 
 .header__subtitle {
-  font-size: 18px ;
+  font-size: 18px;
   font-weight: normal;
   line-height: 25px;
   width: 388px;
@@ -252,7 +252,7 @@
 .feynman__link {
   position: absolute;
   text-decoration: none;
-  color:#2f80ed ;
+  color:#2f80ed;
   line-height:51px;
   font-size: 36px;
   font-weight: normal;
@@ -283,12 +283,12 @@
 
 .kaufman {
   background-color: #1f1f1f;
-  overflow: hidden; 
+  overflow: hidden;
   position: relative;
 }
 
 .kaufman__triangle {
-  background-image: url(../images/kaufman-triangle.svg); 
+  background-image: url(../images/kaufman-triangle.svg);
   background-size: cover;
   position: absolute;
   z-index: 0;
