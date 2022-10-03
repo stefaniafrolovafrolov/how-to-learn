@@ -45,8 +45,8 @@
 }
 
 .logo {
-  width:228px;
-  height:32px; 
+  height: 32px;
+  width: 228px;
   left: 64px;
   top: 30px;
 }
@@ -58,7 +58,7 @@
 }
 
 .header__title {
-  font-size: 102px ;
+  font-size: 102px;
   font-weight: 600;
   line-height: 96px;
   width: 730px;
