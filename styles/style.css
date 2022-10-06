@@ -15,7 +15,11 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+<<<<<<< HEAD
   background: #f2f2f2;
+=======
+  background-color: #f2f2f2;
+>>>>>>> 47fcc5210e04a2f8e2d74a581e43580dd9fa95f9
   position: relative;
   display: flex;
   align-items: center;
@@ -32,7 +36,11 @@
   font-size: 102px;
   font-weight: 600;
   line-height: 96px;
+<<<<<<< HEAD
   max-width: 730px;
+=======
+  width: 730px;
+>>>>>>> 47fcc5210e04a2f8e2d74a581e43580dd9fa95f9
   padding-left: 64px;
   margin: 0;
   z-index: 2;
@@ -42,7 +50,11 @@
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
+<<<<<<< HEAD
   max-width: 388px;
+=======
+  width: 388px;
+>>>>>>> 47fcc5210e04a2f8e2d74a581e43580dd9fa95f9
   margin: 0;
   left: 64px;
   bottom: 30px;
@@ -66,7 +78,11 @@
 }
 
 .header__square-pic {
+<<<<<<< HEAD
   background: #2f80ed;
+=======
+  background-color: #2f80ed;
+>>>>>>> 47fcc5210e04a2f8e2d74a581e43580dd9fa95f9
   width: 568px;
   height: 568px;
   top: 64px;
@@ -91,7 +107,11 @@
   font-weight: normal;
   line-height: 1.2;
   font-size:18px;
+<<<<<<< HEAD
   max-width: 175px;
+=======
+  width: 175px;
+>>>>>>> 47fcc5210e04a2f8e2d74a581e43580dd9fa95f9
   color: #2f80ed;
   margin: 0;
 }
@@ -128,9 +148,15 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
+<<<<<<< HEAD
   width: 60%;
   text-align: center;
   margin: 0;
+=======
+  margin-top: 100px;
+  width: 60%;
+  text-align: center;
+>>>>>>> 47fcc5210e04a2f8e2d74a581e43580dd9fa95f9
   margin-bottom: 20px;
 }
 
@@ -147,13 +173,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+<<<<<<< HEAD
   padding-top: 100px;
+=======
+>>>>>>> 47fcc5210e04a2f8e2d74a581e43580dd9fa95f9
 }
 
 .table {
   padding: 0;
   margin: 0;
+<<<<<<< HEAD
   padding-bottom: 100px;
+=======
+  margin-bottom: 100px;
+>>>>>>> 47fcc5210e04a2f8e2d74a581e43580dd9fa95f9
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -164,7 +197,10 @@
   width: 250px;
   list-style-type: none;
   padding: 0;
+<<<<<<< HEAD
   margin: 0;
+=======
+>>>>>>> 47fcc5210e04a2f8e2d74a581e43580dd9fa95f9
   margin-top: 60px;
 }
 
@@ -175,8 +211,11 @@
 .table__cell_theme_dark {
   width: 200px;
   color: white;
+<<<<<<< HEAD
   padding: 0;
   margin: 0;
+=======
+>>>>>>> 47fcc5210e04a2f8e2d74a581e43580dd9fa95f9
   margin-top: 80px;
 }
 
@@ -211,7 +250,11 @@
 }
 
 .feynman {
+<<<<<<< HEAD
   background: #f2f2f2;
+=======
+  background-color: #f2f2f2;
+>>>>>>> 47fcc5210e04a2f8e2d74a581e43580dd9fa95f9
   position: relative;
   min-height: 890px;
   display: flex;
@@ -223,7 +266,11 @@
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
+<<<<<<< HEAD
   max-width: 648px;
+=======
+  width: 648px;
+>>>>>>> 47fcc5210e04a2f8e2d74a581e43580dd9fa95f9
   text-align: center;
   margin-top: 100px;
   margin-bottom: 70px;
@@ -260,7 +307,11 @@
 }
 
 .kaufman {
+<<<<<<< HEAD
   background: #1f1f1f;
+=======
+  background-color: #1f1f1f;
+>>>>>>> 47fcc5210e04a2f8e2d74a581e43580dd9fa95f9
   overflow: hidden;
   position: relative;
   display: flex;
@@ -284,27 +335,45 @@
   font-size: 60px;
   font-weight: 600;
   margin-top: 90px;
+<<<<<<< HEAD
   max-width: 60%;
   text-align: center;
   margin-bottom: 20px;
   color: white;
   z-index: 1;
+=======
+  width: 60%;
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+>>>>>>> 47fcc5210e04a2f8e2d74a581e43580dd9fa95f9
 }
 
 .section-subtitle_theme_dark {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+<<<<<<< HEAD
   max-width: 60%;
   text-align: center;
   color: white;
   margin: 0;
   z-index: 1;
+=======
+  width: 60%;
+  text-align: center;
+  color: white;
+  margin: 0;
+>>>>>>> 47fcc5210e04a2f8e2d74a581e43580dd9fa95f9
 }
 
 .footer {                                              
   min-height:350px;
+<<<<<<< HEAD
   background:  #1f1f1f;
+=======
+  background-color:  #1f1f1f;
+>>>>>>> 47fcc5210e04a2f8e2d74a581e43580dd9fa95f9
   display: flex;
   justify-content: center;
 }
@@ -375,8 +444,12 @@
   padding: 18px 0 18px 0;
   margin: 0;
 }
+<<<<<<< HEAD
 a:hover {
   color: orangered;
 }
+=======
+
+>>>>>>> 47fcc5210e04a2f8e2d74a581e43580dd9fa95f9
 
 
