@@ -180,8 +180,9 @@
   }
   
   .table_theme_dark {
-    margin-bottom: 90px;
-    margin-top: 0;
+    padding: 0;
+    padding-bottom: 90px;
+    margin: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -265,6 +266,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 90px;
   }
   
   .kaufman__triangle {
@@ -282,7 +284,6 @@
     line-height: 1.15;
     font-size: 60px;
     font-weight: 600;
-    margin-top: 90px;
     width: 60%;
     text-align: center;
     margin-bottom: 20px;
