@@ -337,6 +337,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0;
+    padding: 0;
     margin-bottom: 16px;
   }
   
@@ -376,5 +378,9 @@
   a:hover {
     color: orangered;
   }
-  
+  li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
   
