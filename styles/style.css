@@ -1,79 +1,17 @@
-.page {
-  min-width: 1100px;
-  max-width: 1600px;
-  height: 100%;
-  margin: 0 auto;
-  padding: 0;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-}
 
-.logo_place_header {
-  position: absolute;
-}
 
-.header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  background-color: #f2f2f2;
-  position: relative;
-  display: flex;
-  align-items: center;
-}
 
-.logo {
-  height: 32px;
-  width: 228px;
-  left: 64px;
-  top: 30px;
-}
 
-.header__title {
-  font-size: 102px;
-  font-weight: 600;
-  line-height: 96px;
-  width: 730px;
-  padding-left: 64px;
-  margin: 0;
-  z-index: 2;
-}
 
-.header__subtitle {
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 25px;
-  width: 388px;
-  margin: 0;
-  left: 64px;
-  bottom: 30px;
-  z-index: 2;
-  position: absolute;
-}
 
-.header__link {
-  color: #2f80ed;
-  text-decoration: none;
-}
 
-.header__main-illustration {
-  max-width: 100%;
-  width: 765px;
-  height: 608px;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  z-index: 1;
-}
 
-.header__square-pic {
-  background-color: #2f80ed;
-  width: 568px;
-  height: 568px;
-  top: 64px;
-  right: 0;
-  position: absolute;
-  z-index: 0;
- }
+
+
+
+
+
+
 
 .description {
   display: flex;
@@ -91,7 +29,7 @@
   font-weight: normal;
   line-height: 1.2;
   font-size:18px;
-  width: 175px;
+  max-width: 175px;
   color: #2f80ed;
   margin: 0;
 }
@@ -102,11 +40,11 @@
 }
 
 .two-columns__paragraph {
+  margin: 0;
   font-weight: normal;
   line-height: 34px;
   font-size:24px;
   margin-bottom: 30px;
-  margin: 0;
 }
 .two-columns__paragraph:last-of-type {
   margin-bottom: 0;
@@ -128,19 +66,23 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
-  margin-top: 100px;
-  width: 60%;
+  max-width: 60%;
   text-align: center;
+  margin: 0;
+  padding: 0;
   margin-bottom: 20px;
+  z-index: 1;
 }
 
 .section-subtitle {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  width: 60%;
+  max-width: 60%;
   text-align: center;
   margin: 0;
+  padding: 0;
+  z-index: 1;
 }
 
 .digits {
@@ -152,7 +94,7 @@
 .table {
   padding: 0;
   margin: 0;
-  margin-bottom: 100px;
+  padding-bottom: 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -166,10 +108,6 @@
   margin-top: 60px;
 }
 
-.table__text:nth-last-child(even) {
-  margin-bottom: 20px;
-}
-
 .table__cell_theme_dark {
   width: 200px;
   color: white;
@@ -177,8 +115,9 @@
 }
 
 .table_theme_dark {
-  margin-bottom: 90px;
-  margin-top: 0;
+  padding: 0;
+  padding-bottom: 90px;
+  margin: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -207,7 +146,7 @@
 }
 
 .feynman {
-  background-color: #f2f2f2;
+  background: #f2f2f2;
   position: relative;
   min-height: 890px;
   display: flex;
@@ -219,7 +158,7 @@
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
-  width: 648px;
+  max-width: 648px;
   text-align: center;
   margin-top: 100px;
   margin-bottom: 70px;
@@ -256,12 +195,13 @@
 }
 
 .kaufman {
-  background-color: #1f1f1f;
+  background: #1f1f1f;
   overflow: hidden;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 90px;
 }
 
 .kaufman__triangle {
@@ -279,7 +219,6 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
-  margin-top: 90px;
   width: 60%;
   text-align: center;
   margin-bottom: 20px;
@@ -298,7 +237,7 @@
 
 .footer {                                              
   min-height:350px;
-  background-color:  #1f1f1f;
+  background:  #1f1f1f;
   display: flex;
   justify-content: center;
 }
@@ -321,6 +260,8 @@
   justify-content: space-between;
 }
 
+
+
 .footer__column-heading {
   line-height:30px;
   font-size: 18px;
@@ -334,6 +275,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   margin-bottom: 16px;
 }
 
@@ -351,11 +295,6 @@
   padding-right: 10px;
 }
 
-.nav {
- display: flex;
- flex-direction: column;
-}
-
 .logo_place_footer {
   width:228px;
   height:32px; 
@@ -369,6 +308,18 @@
   padding: 18px 0 18px 0;
   margin: 0;
 }
+
+.header__link:hover, .feynman__link:hover, .footer__column-link:hover  {
+  color: orangered;
+}
+
+
+
+
+
+
+
+
 
 
 
