@@ -1,8 +1,11 @@
 .video__iframe {
-    margin-right: 20px;
-    margin-bottom: -60px;
-  }
+  width: 515px;
+  height: 316px;
+  margin-right: 20px;
+  margin-bottom: -60px;
+  border: 0;
+}
 
-  .video__iframe:last-of-type {
-    margin-right: 0;
-  }
+.video__iframe:last-of-type {
+  margin-right: 0;
+}

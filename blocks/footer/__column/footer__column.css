@@ -1,5 +1,4 @@
 .footer__column {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
   }
