@@ -1,5 +1,9 @@
-
 .header__link {
     color: #2f80ed;
     text-decoration: none;
+  }
+  .header__link:hover {
+    opacity: .5;
+    color: rgba(238, 78, 20, 0.856);
+    transition: .5s ease-in-out;
   }
